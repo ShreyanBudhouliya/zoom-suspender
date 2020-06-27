@@ -1,0 +1,41 @@
+{
+  "name": "Zoom Suspender",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Suspend trailing zoom tabs with a single click",
+  "homepage_url": "https://github.com/rishabhBudhouliya/zoom-suspender.git",
+  "author": "Rishabh Budhouliya",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background" : {
+    "scripts" : [
+      "src/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/inject.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Suspend trailing zoom tabs and free up memory"
+  }
+}

@@ -1,14 +1,14 @@
 # Zoom Suspender
 
-Remove unused zoom tabs with a single click and live another day with our famous memory chonker.
+Remove unused zoom tabs with a single click to enable a smoother Chrome browsing experience!
 
 [![Install from chrome web store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci)
 
 
 ## About the extension
 
-- Go to any unused zoom tab and just click on the extension, viola!
-- Save memory otherwise taken by dormant zoom tabs
+- Go to any unused zoom tab and just click on the extension and all your zoom tabs will be suspended!
+- Save memory by reducing the performance overhead added by the dormant zoom tabs
 
 ## Privacy
 

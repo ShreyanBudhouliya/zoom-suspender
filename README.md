@@ -2,7 +2,7 @@
 
 Remove unused zoom tabs with a single click to enable a smoother Chrome browsing experience!
 
-[![Install from chrome web store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci)
+[![Install from chrome web store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/zoom-suspender/fdgccddmodhmbhaijendikgejnflbhkk)
 
 
 ## About the extension
